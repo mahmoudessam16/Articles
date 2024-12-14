@@ -7,20 +7,21 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(210, 46%, 95%);
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 body .container {
-  width: 80%;
+  width: 90%;
+  margin: 120px;
   display: grid;
   grid-template-areas: "daniel daniel daniel daniel jonathan jonathan kira kira" "jeanette jeanette patrick patrick patrick patrick kira kira";
-  gap: 25px;
+  gap: 20px;
 }
 body .container > div {
   border-radius: 10px;
-  padding: 30px 35px;
+  padding: 25px 30px;
 }
 body .container > div .label {
   display: flex;
@@ -43,14 +44,14 @@ body .container > div .label .name .status {
   color: hsla(210, 46%, 95%, 0.5);
 }
 body .container > div .info h3 {
-  font-size: 23px;
+  font-size: 20px;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
   margin: 20px 0;
 }
 body .container > div .info p {
   color: rgba(255, 255, 255, 0.5);
-  line-height: 1.4;
+  line-height: 1.2;
 }
 body .container .daniel {
   grid-area: daniel;
@@ -112,4 +113,6 @@ body .container .kira .info p {
   body .container > div .info p {
     font-size: 15px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
